@@ -1,0 +1,6 @@
+framework module Pods_ICP_Mobile_Test_ICP_Mobile_TestUITests {
+  umbrella header "Pods-ICP Mobile Test-ICP Mobile TestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

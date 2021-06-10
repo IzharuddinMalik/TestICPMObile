@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60F87BCE0430F5E811C76390 /* Pods_ICP_Mobile_Test_ICP_Mobile_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7548AF4F75F8D8B852691E97 /* Pods_ICP_Mobile_Test_ICP_Mobile_TestUITests.framework */; };
+		792B7201A2FF5DE6199E1C6A /* Pods_ICP_Mobile_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DF98C333AFE493752D8D3D /* Pods_ICP_Mobile_Test.framework */; };
+		A7891E5C114B22E5A51938AA /* Pods_ICP_Mobile_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB8733DD0C9E69425CAB61D /* Pods_ICP_Mobile_TestTests.framework */; };
+		FA058F5026726CFC00829C6A /* EditBukuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA058F4F26726CFC00829C6A /* EditBukuViewController.swift */; };
+		FA12478D26719E2C00F8914B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12478C26719E2C00F8914B /* AppDelegate.swift */; };
+		FA12478F26719E2C00F8914B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12478E26719E2C00F8914B /* SceneDelegate.swift */; };
+		FA12479126719E2C00F8914B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12479026719E2C00F8914B /* ViewController.swift */; };
+		FA12479426719E2C00F8914B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA12479226719E2C00F8914B /* Main.storyboard */; };
+		FA12479726719E2C00F8914B /* ICP_Mobile_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA12479526719E2C00F8914B /* ICP_Mobile_Test.xcdatamodeld */; };
+		FA12479926719E3200F8914B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA12479826719E3200F8914B /* Assets.xcassets */; };
+		FA12479C26719E3200F8914B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA12479A26719E3200F8914B /* LaunchScreen.storyboard */; };
+		FA1247A726719E3300F8914B /* ICP_Mobile_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1247A626719E3300F8914B /* ICP_Mobile_TestTests.swift */; };
+		FA1247B226719E3300F8914B /* ICP_Mobile_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1247B126719E3300F8914B /* ICP_Mobile_TestUITests.swift */; };
+		FA1247C02671A7A400F8914B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1247BF2671A7A400F8914B /* HomeViewController.swift */; };
+		FA1247C22671A82300F8914B /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1247C12671A82300F8914B /* HomeScreenViewController.swift */; };
+		FA1247C62671A88900F8914B /* ListBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1247C42671A88900F8914B /* ListBookTableViewCell.swift */; };
+		FA1247C72671A88900F8914B /* ListBookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1247C52671A88900F8914B /* ListBookTableViewCell.xib */; };
+		FA1247C92671FEC200F8914B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1247C82671FEC200F8914B /* ProfileViewController.swift */; };
+		FA1247CB2672667D00F8914B /* TambahBukuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1247CA2672667100F8914B /* TambahBukuViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA1247A326719E3300F8914B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA12478126719E2C00F8914B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA12478826719E2C00F8914B;
+			remoteInfo = "ICP Mobile Test";
+		};
+		FA1247AE26719E3300F8914B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA12478126719E2C00F8914B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA12478826719E2C00F8914B;
+			remoteInfo = "ICP Mobile Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05E7903F0D96C0753A982690 /* Pods-ICP Mobile TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICP Mobile TestTests.debug.xcconfig"; path = "Target Support Files/Pods-ICP Mobile TestTests/Pods-ICP Mobile TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55B83638AA7F6DCE98CE10A7 /* Pods-ICP Mobile TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICP Mobile TestTests.release.xcconfig"; path = "Target Support Files/Pods-ICP Mobile TestTests/Pods-ICP Mobile TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		7548AF4F75F8D8B852691E97 /* Pods_ICP_Mobile_Test_ICP_Mobile_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICP_Mobile_Test_ICP_Mobile_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8461E8FF67FB17683ED86C82 /* Pods-ICP Mobile Test-ICP Mobile TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICP Mobile Test-ICP Mobile TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-ICP Mobile Test-ICP Mobile TestUITests/Pods-ICP Mobile Test-ICP Mobile TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E1838F6653967B4DD2E6A22 /* Pods-ICP Mobile Test-ICP Mobile TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICP Mobile Test-ICP Mobile TestUITests.release.xcconfig"; path = "Target Support Files/Pods-ICP Mobile Test-ICP Mobile TestUITests/Pods-ICP Mobile Test-ICP Mobile TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B278BA4586C1FAE0052A9497 /* Pods-ICP Mobile Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICP Mobile Test.debug.xcconfig"; path = "Target Support Files/Pods-ICP Mobile Test/Pods-ICP Mobile Test.debug.xcconfig"; sourceTree = "<group>"; };
+		BBA8AD398A267C65001F6546 /* Pods-ICP Mobile Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICP Mobile Test.release.xcconfig"; path = "Target Support Files/Pods-ICP Mobile Test/Pods-ICP Mobile Test.release.xcconfig"; sourceTree = "<group>"; };
+		C6DF98C333AFE493752D8D3D /* Pods_ICP_Mobile_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICP_Mobile_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB8733DD0C9E69425CAB61D /* Pods_ICP_Mobile_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICP_Mobile_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA058F4F26726CFC00829C6A /* EditBukuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBukuViewController.swift; sourceTree = "<group>"; };
+		FA12478926719E2C00F8914B /* ICP Mobile Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ICP Mobile Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA12478C26719E2C00F8914B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA12478E26719E2C00F8914B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA12479026719E2C00F8914B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA12479326719E2C00F8914B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA12479626719E2C00F8914B /* ICP_Mobile_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ICP_Mobile_Test.xcdatamodel; sourceTree = "<group>"; };
+		FA12479826719E3200F8914B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA12479B26719E3200F8914B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA12479D26719E3200F8914B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1247A226719E3300F8914B /* ICP Mobile TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ICP Mobile TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1247A626719E3300F8914B /* ICP_Mobile_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICP_Mobile_TestTests.swift; sourceTree = "<group>"; };
+		FA1247A826719E3300F8914B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1247AD26719E3300F8914B /* ICP Mobile TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ICP Mobile TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1247B126719E3300F8914B /* ICP_Mobile_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICP_Mobile_TestUITests.swift; sourceTree = "<group>"; };
+		FA1247B326719E3300F8914B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1247BF2671A7A400F8914B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA1247C12671A82300F8914B /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		FA1247C42671A88900F8914B /* ListBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBookTableViewCell.swift; sourceTree = "<group>"; };
+		FA1247C52671A88900F8914B /* ListBookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListBookTableViewCell.xib; sourceTree = "<group>"; };
+		FA1247C82671FEC200F8914B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FA1247CA2672667100F8914B /* TambahBukuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahBukuViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA12478626719E2C00F8914B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792B7201A2FF5DE6199E1C6A /* Pods_ICP_Mobile_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA12479F26719E3300F8914B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7891E5C114B22E5A51938AA /* Pods_ICP_Mobile_TestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1247AA26719E3300F8914B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F87BCE0430F5E811C76390 /* Pods_ICP_Mobile_Test_ICP_Mobile_TestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEF05089751E8BC39E3F4C48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B278BA4586C1FAE0052A9497 /* Pods-ICP Mobile Test.debug.xcconfig */,
+				BBA8AD398A267C65001F6546 /* Pods-ICP Mobile Test.release.xcconfig */,
+				8461E8FF67FB17683ED86C82 /* Pods-ICP Mobile Test-ICP Mobile TestUITests.debug.xcconfig */,
+				8E1838F6653967B4DD2E6A22 /* Pods-ICP Mobile Test-ICP Mobile TestUITests.release.xcconfig */,
+				05E7903F0D96C0753A982690 /* Pods-ICP Mobile TestTests.debug.xcconfig */,
+				55B83638AA7F6DCE98CE10A7 /* Pods-ICP Mobile TestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C897C51870CCB918ADB2CA14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6DF98C333AFE493752D8D3D /* Pods_ICP_Mobile_Test.framework */,
+				7548AF4F75F8D8B852691E97 /* Pods_ICP_Mobile_Test_ICP_Mobile_TestUITests.framework */,
+				EEB8733DD0C9E69425CAB61D /* Pods_ICP_Mobile_TestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA12478026719E2C00F8914B = {
+			isa = PBXGroup;
+			children = (
+				FA12478B26719E2C00F8914B /* ICP Mobile Test */,
+				FA1247A526719E3300F8914B /* ICP Mobile TestTests */,
+				FA1247B026719E3300F8914B /* ICP Mobile TestUITests */,
+				FA12478A26719E2C00F8914B /* Products */,
+				BEF05089751E8BC39E3F4C48 /* Pods */,
+				C897C51870CCB918ADB2CA14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA12478A26719E2C00F8914B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA12478926719E2C00F8914B /* ICP Mobile Test.app */,
+				FA1247A226719E3300F8914B /* ICP Mobile TestTests.xctest */,
+				FA1247AD26719E3300F8914B /* ICP Mobile TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA12478B26719E2C00F8914B /* ICP Mobile Test */ = {
+			isa = PBXGroup;
+			children = (
+				FA1247C32671A86D00F8914B /* Adapter */,
+				FA12478C26719E2C00F8914B /* AppDelegate.swift */,
+				FA12478E26719E2C00F8914B /* SceneDelegate.swift */,
+				FA12479026719E2C00F8914B /* ViewController.swift */,
+				FA12479226719E2C00F8914B /* Main.storyboard */,
+				FA12479826719E3200F8914B /* Assets.xcassets */,
+				FA12479A26719E3200F8914B /* LaunchScreen.storyboard */,
+				FA12479D26719E3200F8914B /* Info.plist */,
+				FA12479526719E2C00F8914B /* ICP_Mobile_Test.xcdatamodeld */,
+				FA1247BF2671A7A400F8914B /* HomeViewController.swift */,
+				FA1247C12671A82300F8914B /* HomeScreenViewController.swift */,
+				FA1247C82671FEC200F8914B /* ProfileViewController.swift */,
+				FA1247CA2672667100F8914B /* TambahBukuViewController.swift */,
+				FA058F4F26726CFC00829C6A /* EditBukuViewController.swift */,
+			);
+			path = "ICP Mobile Test";
+			sourceTree = "<group>";
+		};
+		FA1247A526719E3300F8914B /* ICP Mobile TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA1247A626719E3300F8914B /* ICP_Mobile_TestTests.swift */,
+				FA1247A826719E3300F8914B /* Info.plist */,
+			);
+			path = "ICP Mobile TestTests";
+			sourceTree = "<group>";
+		};
+		FA1247B026719E3300F8914B /* ICP Mobile TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA1247B126719E3300F8914B /* ICP_Mobile_TestUITests.swift */,
+				FA1247B326719E3300F8914B /* Info.plist */,
+			);
+			path = "ICP Mobile TestUITests";
+			sourceTree = "<group>";
+		};
+		FA1247C32671A86D00F8914B /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				FA1247C42671A88900F8914B /* ListBookTableViewCell.swift */,
+				FA1247C52671A88900F8914B /* ListBookTableViewCell.xib */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA12478826719E2C00F8914B /* ICP Mobile Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1247B626719E3300F8914B /* Build configuration list for PBXNativeTarget "ICP Mobile Test" */;
+			buildPhases = (
+				28115356C405809ED4639DE0 /* [CP] Check Pods Manifest.lock */,
+				FA12478526719E2C00F8914B /* Sources */,
+				FA12478626719E2C00F8914B /* Frameworks */,
+				FA12478726719E2C00F8914B /* Resources */,
+				1CFDBD042E75EF3431B95F9B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ICP Mobile Test";
+			productName = "ICP Mobile Test";
+			productReference = FA12478926719E2C00F8914B /* ICP Mobile Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA1247A126719E3300F8914B /* ICP Mobile TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1247B926719E3300F8914B /* Build configuration list for PBXNativeTarget "ICP Mobile TestTests" */;
+			buildPhases = (
+				B0B6B267F7E7A35707041499 /* [CP] Check Pods Manifest.lock */,
+				FA12479E26719E3300F8914B /* Sources */,
+				FA12479F26719E3300F8914B /* Frameworks */,
+				FA1247A026719E3300F8914B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1247A426719E3300F8914B /* PBXTargetDependency */,
+			);
+			name = "ICP Mobile TestTests";
+			productName = "ICP Mobile TestTests";
+			productReference = FA1247A226719E3300F8914B /* ICP Mobile TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA1247AC26719E3300F8914B /* ICP Mobile TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1247BC26719E3300F8914B /* Build configuration list for PBXNativeTarget "ICP Mobile TestUITests" */;
+			buildPhases = (
+				BA52C89FCE4313CE6C8B77BD /* [CP] Check Pods Manifest.lock */,
+				FA1247A926719E3300F8914B /* Sources */,
+				FA1247AA26719E3300F8914B /* Frameworks */,
+				FA1247AB26719E3300F8914B /* Resources */,
+				F2A7942D118957DF5ABB6064 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1247AF26719E3300F8914B /* PBXTargetDependency */,
+			);
+			name = "ICP Mobile TestUITests";
+			productName = "ICP Mobile TestUITests";
+			productReference = FA1247AD26719E3300F8914B /* ICP Mobile TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA12478126719E2C00F8914B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FA12478826719E2C00F8914B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					FA1247A126719E3300F8914B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FA12478826719E2C00F8914B;
+					};
+					FA1247AC26719E3300F8914B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FA12478826719E2C00F8914B;
+					};
+				};
+			};
+			buildConfigurationList = FA12478426719E2C00F8914B /* Build configuration list for PBXProject "ICP Mobile Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA12478026719E2C00F8914B;
+			productRefGroup = FA12478A26719E2C00F8914B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA12478826719E2C00F8914B /* ICP Mobile Test */,
+				FA1247A126719E3300F8914B /* ICP Mobile TestTests */,
+				FA1247AC26719E3300F8914B /* ICP Mobile TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA12478726719E2C00F8914B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1247C72671A88900F8914B /* ListBookTableViewCell.xib in Resources */,
+				FA12479C26719E3200F8914B /* LaunchScreen.storyboard in Resources */,
+				FA12479926719E3200F8914B /* Assets.xcassets in Resources */,
+				FA12479426719E2C00F8914B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1247A026719E3300F8914B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1247AB26719E3300F8914B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CFDBD042E75EF3431B95F9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ICP Mobile Test/Pods-ICP Mobile Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ICP Mobile Test/Pods-ICP Mobile Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ICP Mobile Test/Pods-ICP Mobile Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28115356C405809ED4639DE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ICP Mobile Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0B6B267F7E7A35707041499 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ICP Mobile TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA52C89FCE4313CE6C8B77BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ICP Mobile Test-ICP Mobile TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2A7942D118957DF5ABB6064 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ICP Mobile Test-ICP Mobile TestUITests/Pods-ICP Mobile Test-ICP Mobile TestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ICP Mobile Test-ICP Mobile TestUITests/Pods-ICP Mobile Test-ICP Mobile TestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ICP Mobile Test-ICP Mobile TestUITests/Pods-ICP Mobile Test-ICP Mobile TestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA12478526719E2C00F8914B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1247C02671A7A400F8914B /* HomeViewController.swift in Sources */,
+				FA12479126719E2C00F8914B /* ViewController.swift in Sources */,
+				FA12478D26719E2C00F8914B /* AppDelegate.swift in Sources */,
+				FA12479726719E2C00F8914B /* ICP_Mobile_Test.xcdatamodeld in Sources */,
+				FA12478F26719E2C00F8914B /* SceneDelegate.swift in Sources */,
+				FA1247C62671A88900F8914B /* ListBookTableViewCell.swift in Sources */,
+				FA1247CB2672667D00F8914B /* TambahBukuViewController.swift in Sources */,
+				FA1247C92671FEC200F8914B /* ProfileViewController.swift in Sources */,
+				FA1247C22671A82300F8914B /* HomeScreenViewController.swift in Sources */,
+				FA058F5026726CFC00829C6A /* EditBukuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA12479E26719E3300F8914B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1247A726719E3300F8914B /* ICP_Mobile_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1247A926719E3300F8914B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1247B226719E3300F8914B /* ICP_Mobile_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA1247A426719E3300F8914B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA12478826719E2C00F8914B /* ICP Mobile Test */;
+			targetProxy = FA1247A326719E3300F8914B /* PBXContainerItemProxy */;
+		};
+		FA1247AF26719E3300F8914B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA12478826719E2C00F8914B /* ICP Mobile Test */;
+			targetProxy = FA1247AE26719E3300F8914B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA12479226719E2C00F8914B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA12479326719E2C00F8914B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA12479A26719E3200F8914B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA12479B26719E3200F8914B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA1247B426719E3300F8914B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA1247B526719E3300F8914B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA1247B726719E3300F8914B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B278BA4586C1FAE0052A9497 /* Pods-ICP Mobile Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JJKUKAB2X;
+				INFOPLIST_FILE = "ICP Mobile Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Izharuddin.ICP-Mobile-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA1247B826719E3300F8914B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA8AD398A267C65001F6546 /* Pods-ICP Mobile Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JJKUKAB2X;
+				INFOPLIST_FILE = "ICP Mobile Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Izharuddin.ICP-Mobile-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA1247BA26719E3300F8914B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E7903F0D96C0753A982690 /* Pods-ICP Mobile TestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JJKUKAB2X;
+				INFOPLIST_FILE = "ICP Mobile TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Izharuddin.ICP-Mobile-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICP Mobile Test.app/ICP Mobile Test";
+			};
+			name = Debug;
+		};
+		FA1247BB26719E3300F8914B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55B83638AA7F6DCE98CE10A7 /* Pods-ICP Mobile TestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JJKUKAB2X;
+				INFOPLIST_FILE = "ICP Mobile TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Izharuddin.ICP-Mobile-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICP Mobile Test.app/ICP Mobile Test";
+			};
+			name = Release;
+		};
+		FA1247BD26719E3300F8914B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8461E8FF67FB17683ED86C82 /* Pods-ICP Mobile Test-ICP Mobile TestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JJKUKAB2X;
+				INFOPLIST_FILE = "ICP Mobile TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Izharuddin.ICP-Mobile-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ICP Mobile Test";
+			};
+			name = Debug;
+		};
+		FA1247BE26719E3300F8914B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1838F6653967B4DD2E6A22 /* Pods-ICP Mobile Test-ICP Mobile TestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JJKUKAB2X;
+				INFOPLIST_FILE = "ICP Mobile TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Izharuddin.ICP-Mobile-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ICP Mobile Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA12478426719E2C00F8914B /* Build configuration list for PBXProject "ICP Mobile Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1247B426719E3300F8914B /* Debug */,
+				FA1247B526719E3300F8914B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1247B626719E3300F8914B /* Build configuration list for PBXNativeTarget "ICP Mobile Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1247B726719E3300F8914B /* Debug */,
+				FA1247B826719E3300F8914B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1247B926719E3300F8914B /* Build configuration list for PBXNativeTarget "ICP Mobile TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1247BA26719E3300F8914B /* Debug */,
+				FA1247BB26719E3300F8914B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1247BC26719E3300F8914B /* Build configuration list for PBXNativeTarget "ICP Mobile TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1247BD26719E3300F8914B /* Debug */,
+				FA1247BE26719E3300F8914B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA12479526719E2C00F8914B /* ICP_Mobile_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA12479626719E2C00F8914B /* ICP_Mobile_Test.xcdatamodel */,
+			);
+			currentVersion = FA12479626719E2C00F8914B /* ICP_Mobile_Test.xcdatamodel */;
+			path = ICP_Mobile_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA12478126719E2C00F8914B /* Project object */;
+}
